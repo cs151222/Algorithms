@@ -1,31 +1,31 @@
 Algorithms [![Build Status](https://travis-ci.org/pedrovgs/Algorithms.svg?branch=master)](https://travis-ci.org/pedrovgs/Algorithms)
 ==========
 
-This repository contains my solution for common algorithms. I've created this repository to learn about algorithms and improve solutions to common computer science problems. I'll try to add more solutions if I have time. :)
+这个存储库包含我对常用算法的解决方案。 我创建了这个存储库来了解算法并改进常见计算机科学问题的解决方案。 如果我有时间，我会尝试添加更多解决方案。 :)
 
-Each solution has a Java program and is tested. Some problems contain multiple solutions with different implementations.
+每个解决方案都有一个 Java 程序并经过测试。 一些问题包含具有不同实现的多个解决方案。
 
-You can check the solution executing tests inside tests directory. Some problems were resolved using TDD.
+您可以检查在测试目录中执行测试的解决方案。 使用 TDD 解决了一些问题。 
 
-Problems
+问题 
 --------
 
-### Trees
+### 树
 
-* [Binary tree by level](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem13/BinaryTreeByLevel.java)
-* [Binary tree pre order](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem14/BinaryTreePreOrder.java)
-* [Binary tree in order](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem15/BinaryTreeInOrder.java)
-* [Binary tree post order](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem16/BinaryTreePostOrder.java)
-* [Are binary trees equals?](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem17/BinaryTreeEquals.java)
-* [Is binary search tree](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem18/IsBST.java)
-* [Binary tree depth](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem19/BinaryTreeDepth.java)
-* [Lowest common ancestor](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem21/LowestCommonAncestor.java)
-* [Sorted array to BST](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem24/SortedArrayToBST.java)
-* [AVL tree median](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem36/AvlTreeMedian.java)
-* [Path calculator](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem37/PathCalculator.java)
-* [Path to every leaf](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem38/PathToEveryLeaf.java)
-* [Is tree balanced](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem65/IsTreeBalanced.java)
-* [Generate list with nodes by level](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem66/TreeToListByLevel.java)
+* [二叉树的层次遍历](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem13/BinaryTreeByLevel.java)
+* [二叉树的先序遍历](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem14/BinaryTreePreOrder.java)
+* [二叉树的中序遍历](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem15/BinaryTreeInOrder.java)
+* [二叉树的后序遍历](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem16/BinaryTreePostOrder.java)
+* [比较二叉树?](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem17/BinaryTreeEquals.java)
+* [二叉查找树 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem18/IsBST.java)
+* [二叉树的深度遍历](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem19/BinaryTreeDepth.java)
+* [最低共同祖先](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem21/LowestCommonAncestor.java)
+* [排序阵列到 BST](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem24/SortedArrayToBST.java)
+* [AVL 树中位数](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem36/AvlTreeMedian.java)
+* [路径计算器](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem37/PathCalculator.java)
+* [通往每片叶子的路径](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem38/PathToEveryLeaf.java)
+* [平衡二叉树](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem65/IsTreeBalanced.java)
+* [按级别生成节点列表 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem66/TreeToListByLevel.java)
 
 ### Linked List
 
