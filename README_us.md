@@ -1,118 +1,118 @@
 Algorithms [![Build Status](https://travis-ci.org/pedrovgs/Algorithms.svg?branch=master)](https://travis-ci.org/pedrovgs/Algorithms)
 ==========
 
-这个存储库包含我对常用算法的解决方案。 我创建了这个存储库来了解算法并改进常见计算机科学问题的解决方案。 如果我有时间，我会尝试添加更多解决方案。 :)
+This repository contains my solution for common algorithms. I've created this repository to learn about algorithms and improve solutions to common computer science problems. I'll try to add more solutions if I have time. :)
 
-每个解决方案都有一个 Java 程序并经过测试。 一些问题包含具有不同实现的多个解决方案。
+Each solution has a Java program and is tested. Some problems contain multiple solutions with different implementations.
 
-您可以检查在测试目录中执行测试的解决方案。 使用 TDD 解决了一些问题。 
+You can check the solution executing tests inside tests directory. Some problems were resolved using TDD.
 
-问题 
+Problems
 --------
 
-### 树
+### Trees
 
-* [二叉树的层次遍历](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem13/BinaryTreeByLevel.java)
-* [二叉树的先序遍历](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem14/BinaryTreePreOrder.java)
-* [二叉树的中序遍历](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem15/BinaryTreeInOrder.java)
-* [二叉树的后序遍历](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem16/BinaryTreePostOrder.java)
-* [比较二叉树?](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem17/BinaryTreeEquals.java)
-* [二叉查找树 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem18/IsBST.java)
-* [二叉树的深度遍历](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem19/BinaryTreeDepth.java)
-* [最低共同祖先](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem21/LowestCommonAncestor.java)
-* [排序阵列到 BST](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem24/SortedArrayToBST.java)
-* [AVL 树中位数](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem36/AvlTreeMedian.java)
-* [路径计算器](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem37/PathCalculator.java)
-* [通往每片叶子的路径](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem38/PathToEveryLeaf.java)
-* [平衡二叉树](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem65/IsTreeBalanced.java)
-* [按级别生成节点列表 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem66/TreeToListByLevel.java)
+* [Binary tree by level](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem13/BinaryTreeByLevel.java)
+* [Binary tree pre order](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem14/BinaryTreePreOrder.java)
+* [Binary tree in order](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem15/BinaryTreeInOrder.java)
+* [Binary tree post order](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem16/BinaryTreePostOrder.java)
+* [Are binary trees equals?](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem17/BinaryTreeEquals.java)
+* [Is binary search tree](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem18/IsBST.java)
+* [Binary tree depth](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem19/BinaryTreeDepth.java)
+* [Lowest common ancestor](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem21/LowestCommonAncestor.java)
+* [Sorted array to BST](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem24/SortedArrayToBST.java)
+* [AVL tree median](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem36/AvlTreeMedian.java)
+* [Path calculator](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem37/PathCalculator.java)
+* [Path to every leaf](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem38/PathToEveryLeaf.java)
+* [Is tree balanced](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem65/IsTreeBalanced.java)
+* [Generate list with nodes by level](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem66/TreeToListByLevel.java)
 
-### 链表
+### Linked List
 
-* [反向链表](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem22/ReverseLinkedList.java)
-* [删除重复](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem57/RemoveListDuplicatedElements.java)
-* [查找 kth 元素](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem58/FindKthElement.java)
-* [删除列表节点](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem59/DeleteListNode.java)
-* [分区列表](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem60/PartitionList.java)
-* [总和列表](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem61/SumLists.java)
-* [回文列表 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem62/PalindromeList.java)
-* [在列表中间获取元素](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem64/GetTheElementInTheMiddleOfTheList.java)
+* [Reverse linked list](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem22/ReverseLinkedList.java)
+* [Remove duplicates](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem57/RemoveListDuplicatedElements.java)
+* [Find kth element](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem58/FindKthElement.java)
+* [Delete list node](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem59/DeleteListNode.java)
+* [Partition list](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem60/PartitionList.java)
+* [Sum lists](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem61/SumLists.java)
+* [PalindromeList](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem62/PalindromeList.java)
+* [Get element in the middle of the list](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem64/GetTheElementInTheMiddleOfTheList.java)
 
-### 字符串
+### Strings
 
-* [整数转字符串 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem11/IntToString.java)
-* [从文件中删除注释](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem23/RemoveComments.java)
-* [反句 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem27/ReverseSentence.java)
-* [包含](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem32/Contains.java)
-* [简单的正则表达式 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem33/SimpleRegularExpression.java)
-* [ . 正则表达式](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem34/DotRegularExpression.java)
-* [ * 正则表达式](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem35/AsteriskRegularExpression.java)
-* [特殊字符](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem50/UniqueChars.java)
-* [反向字符串](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem51/ReverseString.java)
-* [压缩字符串](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem53/CompressString.java)
-* [使用子字符串旋转 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem56/IsRotationUsingIsSubstring.java)
+* [Int to String](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem11/IntToString.java)
+* [Remove comments from file](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem23/RemoveComments.java)
+* [Reverse sentence](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem27/ReverseSentence.java)
+* [Contains](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem32/Contains.java)
+* [Simple regular expression](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem33/SimpleRegularExpression.java)
+* [Dot regular expression](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem34/DotRegularExpression.java)
+* [Asterisk regular expression](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem35/AsteriskRegularExpression.java)
+* [Unique chars](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem50/UniqueChars.java)
+* [Reverse string](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem51/ReverseString.java)
+* [Compress string](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem53/CompressString.java)
+* [Is rotation using substring](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem56/IsRotationUsingIsSubstring.java)
 
-### 二进制数和位运算符 
+### Binary Numbers and bits operators
 
-* [二进制数 判断偶数 ?](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem68/IsEven.java)
-* [二进制数 求和](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem3/SumBinaryNumbers.java)
-* [计算位数等于 1 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem1/BitsCounter.java)
-* [合并二进制数 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem67/MergeBinaryNumbers.java)
-* [计算不同位的数](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem69/BitsToTransform.java)
-* [反转二进制数顺序 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem70/ReverseOrderOfBinaryNumber.java)
-* [反转二进制数 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem71/ReverseBinaryNumber.java)
+* [Is binary number even?](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem68/IsEven.java)
+* [Sum binary numbers](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem3/SumBinaryNumbers.java)
+* [Count the number of bits equals to 1](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem1/BitsCounter.java)
+* [Merge binary numbers](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem67/MergeBinaryNumbers.java)
+* [Count the number of different bits](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem69/BitsToTransform.java)
+* [Reverse binary number order](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem70/ReverseOrderOfBinaryNumber.java)
+* [Reverse binary number](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem71/ReverseBinaryNumber.java)
 
-### 数学运算 
+### Math Operations
 
-* [平方根](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem4/SquareRoot.java)
-* [除法是连续减法](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem5/DivideUsingSubtraction.java)
-* [乘法不用乘号](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem20/MultiplicationWithoutMultiply.java)
-* [求和 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem28/FindSums.java)
-* [科学记数法 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem30/ScientificNotation.java)
-* [矢量标量积 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem2/VectorScalarProduct.java)
-* [减 加 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem73/SubtractAdding.java)
+* [Square root](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem4/SquareRoot.java)
+* [Divide using subtraction](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem5/DivideUsingSubtraction.java)
+* [Multiplication without multiply](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem20/MultiplicationWithoutMultiply.java)
+* [Find sums](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem28/FindSums.java)
+* [ScientificNotation](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem30/ScientificNotation.java)
+* [Vector scalar product](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem2/VectorScalarProduct.java)
+* [Subtract adding](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem73/SubtractAdding.java)
 
-### 序列 
+### Sequences
 
-* [斐波那契数列 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem7/FibonacciNumbers.java)
-* [阶乘](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem9/Factorial.java)
+* [Fibonacci numbers](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem7/FibonacciNumbers.java)
+* [Factorial](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem9/Factorial.java)
 
-### 数组 
+### Arrays
 
-* [合并排序数组 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem6/MergeSortedArrays.java)
-* [将数组拆分为正数和负数 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem8/SplitArray.java)
-* [删除重复元素 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem10/RemoveDuplicates.java)
-* [在数组中移动零 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem12/MoveZerosInArray.java)
-* [查找最长的连续序列](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem31/FindLongestConsecutiveSequence.java)
-* [数组元素相乘 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem39/MultiplyArrayElements.java)
-* [将元素移动到位置 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem40/MoveElementsToPositions.java)
-* [替换空格 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem52/ReplaceSpaces.java)
-* [旋转矩阵 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem54/RotateMatrix.java)
-* [重写行和列为零](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem55/RewriteRowAndColumnsWithZeros.java)
-* [查找缺失的号码](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem72/FindTheMissingNumber.java)
+* [Merge sorted arrays](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem6/MergeSortedArrays.java)
+* [Split array in positive and negative numbers](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem8/SplitArray.java)
+* [Remove duplicated elements](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem10/RemoveDuplicates.java)
+* [Move zeros in array](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem12/MoveZerosInArray.java)
+* [Find longest consecutive sequence](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem31/FindLongestConsecutiveSequence.java)
+* [Multiply array elements](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem39/MultiplyArrayElements.java)
+* [Move elements to position](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem40/MoveElementsToPositions.java)
+* [Replace spaces](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem52/ReplaceSpaces.java)
+* [Rotate matrix](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem54/RotateMatrix.java)
+* [Rewrite row and columns with zero](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem55/RewriteRowAndColumnsWithZeros.java)
+* [Find the missing number](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem72/FindTheMissingNumber.java)
 
-### 排序算法
+### Sorting Algorithms
 
-* [冒泡排序 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem74/BubbleSort.java)
-* [选择排序](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem75/SelectionSort.java)
-* [插入排序 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem76/InsertionSort.java)
-* [归并排序 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem79/MergeSort.java)
-* [快速排序](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem80/QuickSort.java)
+* [Bubble Sort](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem74/BubbleSort.java)
+* [Selection Sort](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem75/SelectionSort.java)
+* [Insertion Sort](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem76/InsertionSort.java)
+* [Merge Sort](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem79/MergeSort.java)
+* [Quick Sort](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem80/QuickSort.java)
 
 
-### 杂
+### Misc
 
-* [字谜 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem25/Anagrams.java)
-* [回文 ](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem26/Palindromes.java)
-* [判断字谜?](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem29/AreAnagrams.java)
-* [常规堆的复杂度](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem63/ConstantComplexityOrderStack.java)
-* [不使用分号打印 hello world 的方法](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem77/HelloWorldWithoutSemicolon.java)
-* [自动装箱测试](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem78/AutoBoxingTrick.java)
+* [Anagrams](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem25/Anagrams.java)
+* [Palindromes](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem26/Palindromes.java)
+* [Are anagrams?](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem29/AreAnagrams.java)
+* [Constant complexity order stack](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem63/ConstantComplexityOrderStack.java)
+* [Hello world without semicolon](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem77/HelloWorldWithoutSemicolon.java)
+* [Autoboxing trick](https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem78/AutoBoxingTrick.java)
 
-开发者
--------
+Developed By
+------------
 
-* 佩德罗·维森特·戈麦斯·桑切斯 - <pedrovicente.gomez@gmail.com>
+* Pedro Vicente Gómez Sánchez - <pedrovicente.gomez@gmail.com>
 
 <a href="https://twitter.com/pedro_g_s">
   <img alt="Follow me on Twitter" src="https://image.freepik.com/iconos-gratis/twitter-logo_318-40209.jpg" height="60" width="60"/>
@@ -121,14 +121,21 @@ Algorithms [![Build Status](https://travis-ci.org/pedrovgs/Algorithms.svg?branch
   <img alt="Add me to Linkedin" src="https://image.freepik.com/iconos-gratis/boton-del-logotipo-linkedin_318-84979.png" height="60" width="60"/>
 </a>
 
-许可证
+
+License
 -------
 
-版权所有 2014 佩德罗·维森特·戈麦斯·桑切斯
+Copyright 2014 Pedro Vicente Gómez Sánchez
 
-根据阿帕奇许可证获得许可，第 2.0 版（"许可证"）;您不得使用此文件，除非符合许可证。您可以在
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
 http://www.apache.org/licenses/LICENSE-2.0
 
-除非适用法律要求或书面同意，否则根据许可证分发的软件将按"AS IS"基础分发，不提供任何明示或暗示的担保或条件。有关许可证下的权限和限制的具体语言，请参阅许可证。
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
