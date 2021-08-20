@@ -1,6 +1,9 @@
 Algorithms [![Build Status](https://travis-ci.org/pedrovgs/Algorithms.svg?branch=master)](https://travis-ci.org/pedrovgs/Algorithms)
 ==========
 
+[【English】](https://github.com/cs151222/Algorithms/blob/master/README_us.md)
+[【中文】](https://github.com/cs151222/Algorithms/edit/master/README.md)
+
 This repository contains my solution for common algorithms. I've created this repository to learn about algorithms and improve solutions to common computer science problems. I'll try to add more solutions if I have time. :)
 
 Each solution has a Java program and is tested. Some problems contain multiple solutions with different implementations.
