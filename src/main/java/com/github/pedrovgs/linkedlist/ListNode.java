@@ -22,6 +22,10 @@ package com.github.pedrovgs.linkedlist;
  * more complex variants add additional links. This structure allows for efficient insertion or
  * removal of elements from any position in the sequence.
  *
+ * 链表数据结构的主类。 链表是由一组节点组成的数据结构，这些节点共同表示一个序列。
+ * 在最简单的形式下，每个节点由一个数据和一个指向序列中下一个节点的引用（换句话说，一个链接）组成；
+ * 更复杂的变体会添加额外的链接。 这种结构允许从序列中的任何位置有效地插入或移除元素。
+ *
  * @author Pedro Vicente Gómez Sánchez.
  */
 public class ListNode<T> {
