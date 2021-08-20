@@ -36,6 +36,12 @@ public class BinaryTreeByLevel {
    * is O(N) where N is the number of elements in the tree. The complexity order in space terms is
    * O(N) where N is the number of elements in the tree because we are going to store every node in
    * a queue.
+   *
+   * 添加基于附加数据结构的实现，一个队列，其实现是一个 LinkedList。 
+   * 我们要做的是将树的元素添加到队列中，并一一评估它，如果存在，则向队列添加更多二元节点。
+   * 时间方面的复杂度顺序是 O(N)，其中 N 是树中元素的数量。
+   * 空间方面的复杂度顺序是 O(N)，其中 N 是树中元素的数量，因为我们要将每个节点存储在队列中。 
+   *
    */
   public List<BinaryNode> getUsingQueue(BinaryNode root) {
     validateBinaryNode(root);
@@ -62,6 +68,14 @@ public class BinaryTreeByLevel {
    * To be able to implement this approach you need to know the depth of the tree before to start.
    * This approach is based on recursion and uses the level param as counter to go through the
    * binary tree.
+   *
+   *
+   * 为解决问题 13 中的一个问题而创建的较慢的实现，逐级打印二叉树，而不使用主算法的任何额外数据结构。 
+   * 空间方面的复杂度顺序是 O(N)，因为我们使用一种结构来返回结果。 
+   * 时间方面的复杂度顺序是 O(N*M)，其中 N 是二叉树的深度，M 是低于一级的元素数量。 
+   *
+   * 为了能够实现这种方法，您需要在开始之前知道树的深度。 
+   * 这种方法基于递归并使用级别参数作为计数器来遍历二叉树。 
    */
   public List<BinaryNode> getWithoutAdditionalDataStructures(BinaryNode root) {
     validateBinaryNode(root);
@@ -83,6 +97,7 @@ public class BinaryTreeByLevel {
   /**
    * Calculate the Binary Tree depth based on recursion. The complexity order in space terms of
    * this algorithm is O(N) and in time terms is O(N) where N is the number of nodes in the tree.
+   * 基于递归计算二叉树深度。 该算法在空间方面的复杂度顺序是 O(N)，在时间方面是 O(N)，其中 N 是树中的节点数。   
    */
   private int getDepth(BinaryNode root) {
     if (root == null) {
