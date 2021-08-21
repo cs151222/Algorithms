@@ -25,6 +25,9 @@ import java.util.Queue;
  * Given a binary tree, can you write a method to return a list of nodes by level?
  * And without any additional data structure?
  *
+ * 给定一棵二叉树，你能写一个方法来按级别返回节点列表吗？
+ * 没有任何额外的数据结构？ 
+ *
  * @author Pedro Vicente Gómez Sánchez.
  */
 public class BinaryTreeByLevel {
